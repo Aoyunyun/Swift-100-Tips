@@ -33,7 +33,7 @@ extension Toy {
     }
 }
 
-//注意这里play调用的的】返回值应该也是一个可选类型
+//注意这里play调用的返回值应该也是一个可选类型
 let playClosure  = {(child: Child) ->()? in
     child.pet?.toy?.play()
 }

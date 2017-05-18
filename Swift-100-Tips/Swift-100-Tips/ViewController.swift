@@ -31,6 +31,14 @@ class ViewController: UIViewController {
         testVector2DAdd()
         
         testIncrementor()
+        
+        testSubscript()
+        
+        testChooseStep()
+        
+        testVariadicParameterFunc()
+        
+        testInitial()
     }
     
     //MARK: - Currying
